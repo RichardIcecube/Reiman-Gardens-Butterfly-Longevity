@@ -1,0 +1,127 @@
+.admin-edit-label {
+  font-family: "Garamond", Times, serif;
+  font-size: 30px;
+  margin-top:10px;
+}
+
+.admin-edit-logo {
+  height: 10vh;
+  pointer-events: none;
+  padding-left: 10px;
+}
+
+.admin-edit-header {
+  background-color: white;
+  margin-top: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  min-height: 10vh;
+}
+
+
+.admin-edit-title {
+  border-bottom:2px solid #F1BE48;
+  font-family: "Garamond", Times, serif;
+  font-size: 40px;
+  width: fit-content;
+}
+
+.admin-edit-body {
+  background-color: white;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.admin-edit-textbox {
+  width: 95%;
+  height: 30px;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.admin-button-container {
+  background-color: white;
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.admin-edit-button {
+  background-color: #d7d7d7dd;
+  border: none;
+  color: #333;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 10px;
+  font-family: "Garamond", Times, serif;
+  border-radius: 15px;
+}
+
+.admin-edit-date{
+  font-family: "Garamond", Times, serif;
+  width: fit-content;
+  height: 35px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.admin-edit-button:hover {
+  background-color: #717171;
+}
+
+.admin-edit-logout {
+  background-color: #d7d7d7dd;
+  border: none;
+  color: #333;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 110px;
+  font-family: "Garamond", Times, serif;
+  border-radius: 15px;
+}
+
+@media (min-width:1281px) {
+
+  /* hi-res laptops and desktops */
+  .textbox-container {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    margin-bottom: 15px;
+  }
+
+  .textbox {
+    background-color: white;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    width: 100px;
+    height: 56px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .autofill-box {
+    margin-left: 0px;
+  }
+}

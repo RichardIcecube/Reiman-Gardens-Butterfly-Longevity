@@ -1,0 +1,115 @@
+.admin-home-button{
+  background-color: #d7d7d7dd;
+  border: none;
+  color: #333;
+  padding: 10px 20px;
+  font-size: 35px;
+  cursor:pointer;
+  transition: background-color 0.3s;
+  width: 350px;
+  font-family: "Garamond", Times, serif;
+  border-radius: 15px;
+}
+
+.admin-home-button:hover{
+  background-color: #717171;
+}
+
+.admin-home-logo {
+  height: 10vh;
+  pointer-events: none;
+  padding-left: 10px;
+}
+
+.admin-tag-label{
+  border-bottom:2px solid #F1BE48;
+  font-family: "Garamond", Times, serif;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.admin-tag-button{
+  background-color: #d7d7d7dd;
+  border: none;
+  color: #333;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 40px;
+  cursor:pointer;
+  transition: background-color 0.3s;
+  font-family: "Garamond", Times, serif;
+}
+
+.admin-tag-button:hover{
+  background-color: #717171;
+}
+
+.admin-home {
+  text-align: center;
+}
+
+.admin-home-header {
+  background-color: white;
+  margin-top: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  min-height:10vh;
+}
+
+.admin-home-body {
+  background-color: white;
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  /* Adjust the gap size as needed */
+}
+
+.admin-home-logout{
+  background-color: #d7d7d7dd;
+  border: none;
+  color: #333;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor:pointer;
+  transition: background-color 0.3s;
+  margin-left: 110px;
+  font-family: "Garamond", Times, serif;
+  border-radius:15px;
+}
+
+.admin-home-logout:hover{
+  background-color: #717171;
+}
+
+.usertype-button:hover {
+  background-color: #717171;
+}
+
+.admin-diagram-label{
+  font-family: "Garamond", Times, serif;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.admin-home-diagram {
+  height: 50vh;
+  pointer-events: none;
+  border-style: groove;
+  border-radius: 25px;
+}

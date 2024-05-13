@@ -1,0 +1,103 @@
+.admin-manage-sort{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    margin-bottom: 5px;
+}
+
+.admin-manage-table{
+    display: block;
+    overflow: hidden;
+    table-layout: fixed;
+    border-collapse: collapse;
+    box-shadow: 0px 10px 10px #ccc;
+    border-radius: 10px;
+    white-space: nowrap;
+    max-width: 95%;
+    margin: auto;
+    overflow-x: auto;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    height: fit-content;
+}
+
+.admin-manage-table thead{
+    background-color: #ccc;
+    color: #222;
+}
+
+.admin-manage-table th,
+.admin-manage-table td{
+    padding: 0.8rem;
+}
+
+.admin-manage-table td{
+    border-top: 0.5px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table tbody tr:hover{
+    background-color: #eee;
+    
+}
+
+.admin-manage-expand{
+    width: 100%;
+}
+
+.admin-manage-logo {
+    height: 10vh;
+    pointer-events: none;
+    padding-left: 10px;
+}
+
+.admin-manage-header {
+    background-color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    min-height:10vh;
+}
+
+.admin-manage-logout{
+    background-color: #d7d7d7dd;
+    border: none;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor:pointer;
+    transition: background-color 0.3s;
+    margin-left: 110px;
+    font-family: "Garamond", Times, serif;
+    border-radius: 15px;
+  }
+
+.admin-manage-textbox{
+    font-family: "Garamond", Times, serif;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+.admin-manage-label{
+    font-family: "Garamond", Times, serif;
+    margin-right: 5px;
+}
+
+.admin-manage-edit{
+    background-color: #d7d7d7dd;
+    border: none;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor:pointer;
+    transition: background-color 0.3s;
+    font-family: "Garamond", Times, serif;
+    border-radius: 15px;
+}

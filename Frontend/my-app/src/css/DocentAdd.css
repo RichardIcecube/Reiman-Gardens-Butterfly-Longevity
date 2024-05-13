@@ -1,0 +1,111 @@
+.docent-codeInput{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin:10px;
+    margin-right: auto;
+    font-size:100px;
+    text-align: center;
+    width:88%;
+  }
+  
+  .docent-add-submit{
+    background-color: #d7d7d7dd;
+    border: none;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor:pointer;
+    transition: background-color 0.3s;
+    font-family: "Garamond", Times, serif;
+    width: auto;
+    height: auto;
+    font-size: 40px;
+    border-radius:15px;
+    margin-bottom: 10px;
+  }
+
+  .docent-add-submit:hover{
+    background-color: #717171;
+  }
+  
+  
+  .docent-add {
+    text-align: center;
+  }
+  
+  .docent-add-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .docent-add-header {
+    background-color: white;
+    min-height: 25vh;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+  }
+  .docent-add-body {
+    background-color: white;
+    min-height:25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    margin-top: 50px;
+  }
+  
+  .button-container{
+    display: grid;
+    grid-template-columns: repeat(3,  1fr);
+    gap:  10px; /* Adjust the gap size as needed */
+  }
+  
+  .docent-add-logo {
+    height: 10vh;
+    pointer-events: none;
+    padding-left: 10px;
+  }
+  
+  .docent-add-header {
+    background-color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    min-height:10vh;
+  }
+
+  .docent-add-label{
+    border-bottom:2px solid #F1BE48;
+    font-family: "Garamond", Times, serif;
+    font-size: 30px;
+  }
+  
+  .docent-add-logout{
+    background-color: #d7d7d7dd;
+    border: none;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor:pointer;
+    transition: background-color 0.3s;
+    margin-left: 110px;
+    font-family: "Garamond", Times, serif;
+    border-radius: 15px;
+  }
+  
+  .docent-add-logout:hover{
+    background-color: #717171;
+  }

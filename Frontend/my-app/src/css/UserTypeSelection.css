@@ -1,0 +1,77 @@
+  .user-type-label {
+    border-bottom:2px solid #F1BE48;
+    font-family: "Garamond", Times, serif;
+    font-size: 40px;
+  }
+  
+  .App-logo {
+    height: 10vh;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    background-color: white;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    font-size: calc(10px + 2vmin);
+    color: black;
+  }
+
+  .subheader{
+    background-color:#d7d7d7dd;
+    height: 80px;
+    text-align: left;
+    line-height: 80px;
+  }
+
+  .project-label{
+    color: black;
+    font-family: "Garamond", Times, serif;
+    font-size: 30px;
+  }
+
+  .App-body {
+    background-color: white;
+    min-height:50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+  }
+  
+  .button-container{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .usertype-selection-button{
+    background-color: #d7d7d7dd;
+    border: none;
+    width: 120px;
+    height:60px;
+    font-family: "Garamond", Times, serif;
+    color: black;
+    cursor:pointer;
+    transition: background-color 0.3s;
+    font-size: 20px;
+    border-radius: 15px;
+  }
+  
+  .usertype-selection-button:hover{
+    background-color: #717171;
+  }
+
+  .App-footer{
+    background-color: #C8102E;
+    height: 70px;
+    position:absolute;
+    bottom:0px;
+    right: 0px;
+    left: 0px;
+  }
+  

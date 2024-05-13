@@ -1,0 +1,117 @@
+.codeInput{
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  margin:10px;
+  margin-right: auto;
+  font-size:100px;
+  text-align: center;
+  width:auto;
+}
+
+.PDFact_submitButton{
+  background-color: #d7d7d7dd;
+  border: none;
+  color: #333;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor:pointer;
+  transition: background-color 0.3s;
+  font-family: "Garamond", Times, serif;
+  width: auto;
+  height: auto;
+  font-size: 40px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.PDFact_submitButton:hover{
+  background-color: #717171;
+}
+
+.PDFact {
+  text-align: center;
+}
+
+.PDFact-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.PDFact-header {
+  background-color: white;
+  min-height: 25vh;
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+.PDFact-body {
+  margin-top: 50px;
+  background-color: white;
+  min-height:25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.button-container{
+  display: grid;
+  grid-template-columns: repeat(3,  1fr);
+  gap:  10px; /* Adjust the gap size as needed */
+}
+
+.PDFact-logo {
+  height: 10vh;
+  pointer-events: none;
+  padding-left: 10px;
+}
+
+.PDFact-header {
+  background-color: white;
+  margin-top: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  min-height:10vh;
+}
+
+.PDFact-logout{
+  background-color: #d7d7d7dd;
+  border: none;
+  color: #333;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor:pointer;
+  transition: background-color 0.3s;
+  margin-left: 110px;
+  font-family: "Garamond", Times, serif;
+  border-radius: 15px;
+}
+
+.PDFact-logout:hover{
+  background-color: #717171;
+}
+
+.pdfact-title{
+  border-bottom:2px solid #F1BE48;
+  font-family: "Garamond", Times, serif;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.pdfact-label{
+  font-family: "Garamond", Times, serif;
+  font-size: 20px;
+  margin-bottom: 5px;
+}

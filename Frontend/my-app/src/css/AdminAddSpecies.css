@@ -1,0 +1,88 @@
+.admin-species-label {
+    border-bottom:2px solid #F1BE48;
+    font-family: "Garamond", Times, serif;
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .admin-species-logo {
+    height: 10vh;
+    pointer-events: none;
+    padding-left: 10px;
+  }
+  
+  .admin-species-header {
+    background-color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    min-height:10vh;
+  }
+  
+  .admin-subheader{
+    background-color:#d7d7d7dd;
+    height: 80px;
+    text-align: left;
+    line-height: 80px;
+  }
+  
+  .admin-project-label{
+    color: black;
+    font-family: "Garamond", Times, serif;
+    font-size: 30px;
+  }
+  
+  .admin-species-body {
+    background-color: white;
+    min-height:50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+  }
+  
+  .admin-species-textbox{
+    width: 300px;
+    height: 30px;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  .admin-species-button{
+    background-color: #d7d7d7dd;
+    border: none;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor:pointer;
+    transition: background-color 0.3s;
+    margin-left: 110px;
+    font-family: "Garamond", Times, serif;
+    border-radius: 15px;
+  }
+  
+  .admin-species-button:hover{
+    background-color: #717171;
+  }
+  
+  .admin-species-logout{
+    background-color: #d7d7d7dd;
+    border: none;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor:pointer;
+    transition: background-color 0.3s;
+    margin-left: 110px;
+    font-family: "Garamond", Times, serif;
+    border-radius:15px;
+  }

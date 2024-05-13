@@ -1,0 +1,131 @@
+.admin-generate{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-generate-body{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-generate-logo {
+    height: 10vh;
+    pointer-events: none;
+    padding-left: 10px;
+  }
+
+  .admin-generate-header {
+    background-color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    min-height:10vh;
+  }
+
+  .admin-generate-logout{
+    background-color: #d7d7d7dd;
+    border: none;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor:pointer;
+    transition: background-color 0.3s;
+    margin-left: 110px;
+    font-family: "Garamond", Times, serif;
+    border-radius:15px;
+  }
+  
+  .admin-generate-logout:hover{
+    background-color: #717171;
+  }
+  
+  .admin-generate-submit{
+    background-color: #d7d7d7dd;
+    border: none;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor:pointer;
+    transition: background-color 0.3s;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 150px;
+    width: fit-content;
+  }
+
+  .admin-generate-submit:hover{
+    background-color: #717171;
+}
+
+.admin-generate-button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-generate-title{
+  border-bottom:2px solid #F1BE48;
+  font-family: "Garamond", Times, serif;
+  font-size: 25px;
+  width:fit-content;
+  margin-top: 15px;
+}
+
+.admin-generate-textbox{
+  font-family: "Garamond", Times, serif;
+  width: 300px;
+  height: 35px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.admin-generate-checkbox{
+  size: 10px;
+}
+
+.admin-generate-label{
+  font-family: "Garamond", Times, serif;
+  font-size: 20px;
+}
+
+.admin-generate-radio{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  color: black;
+}
+
+.admin-generate-textbox-alphacode{
+  font-family: "Garamond", Times, serif;
+  width: 45px;
+  height: 35px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.admin-generate-autocomplete{
+  margin-top: 10px;
+}
+
+.admin-generate-form{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction:column;
+    align-items:column;
+    justify-content: column;
+    margin-bottom: 10px;
+}
